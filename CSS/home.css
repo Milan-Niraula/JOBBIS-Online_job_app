@@ -1,0 +1,192 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    color: #639ACB;
+    align-items: center;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar-collapse{
+    background-color: white;
+}
+.collapse:not(.show){
+    margin-left: 200px;
+}
+.nav-link {
+    font-size: 17px;
+    font-weight: 600;
+    color: #45476B;
+}
+.nav-item {
+    padding: 15px 10px 5px 0;
+    font-weight: bold;
+    margin-left: 10px;
+    color:white;
+    font-size: medium;
+
+}
+.nav-item a:hover{
+    color: blue;
+    text-decoration-color: rgb(78, 4, 94);
+}
+.nav-button{
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.nav-button .btn a{
+    text-decoration: none;
+    color: white;
+}
+.nav-button .btn:hover{
+   color: white;
+   background-color: green;
+}
+.dropdown-item {
+    color: white;
+    background-color: rgb(19, 3, 91);
+
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  padding: 10px 0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #fff;
+}
+
+.dropdown-menu a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+.search-container{
+    position: relative;
+    padding-top: 10px;
+}
+.search-container img{
+    width: 100%;
+    height: 700px;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+}
+.search .dropdown-item:hover{
+    color: white;
+    background-color: rgb(68, 68, 168);
+}
+
+/* css for content */
+.container{
+    margin: 100px 100px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 100px 0px 100px 20px;
+    }
+}
+.container h3{
+    margin: 50px 20px 0 20px;
+}
+.container p{
+    margin: 10px 20px;
+}
+.container .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 20px;
+    overflow: hidden;
+  }
+  
+  .container .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .container .card-text {
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 100px;
+    overflow: hidden;
+  }
+  .container .save-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    color: black;
+    margin-left: 180px;
+    margin-top: 40px;
+  }
+  .container .save-button:hover{
+    background-color: green;
+    color: #fff;
+  }
+/* css for footer */
+.footer{
+    width: 100%;
+}
+.footer-content{
+    padding: 5% 10%;
+}
+.footer-content h2{
+    font-size: 16px;
+}
+.footer-content ul{
+    padding: 0;
+}
+.footer-content li{
+    list-style: none;
+    padding: 0;
+}
+.footer-content a{
+    text-decoration: none;
+    padding: 0;
+    font-size: 13px;
+    color: black;
+}
+.footer-content a:hover{
+    text-decoration: underline;
+}
+.footer-content p{
+    font-size: 13px;
+}
+.footer-content hr{
+    border: 0;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}

@@ -1,0 +1,219 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(19, 3, 91);
+    color:white;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    margin-left: 0px;
+    color: #ccc;
+}
+.nav-link {
+    color:#ccc;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: rgb(165, 40, 40);
+    font-weight: 550;
+}
+.nav-item {
+    padding: 15px 10px 5px 0;
+    font-weight: bold;
+    margin-left: 10px;
+    color:white;
+    font-size: medium;
+}
+.dropdown {
+    margin-left: 40rem;
+    padding: 15px 10px 5px 0;
+    font-size: medium;
+}
+.dropdown-item {
+    color: black;
+    background-color: rgb(190, 211, 222);
+
+}
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  /* starts code for vertical nav bar */
+  .vertical-nav {
+    margin-top: 0;
+    background-color: rgb(19, 3, 91);
+    color: white;
+  }
+  .content-area-form {
+    margin-top: 5rem;
+  }
+  .dashboard-main {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    overflow: auto;
+  }
+  .btn-dash, .btn-nav {
+    border: 3px solid rgb(19, 0, 100);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 1px 1px ;
+    background-color: rgb(19, 4, 86);
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    height: 100%;
+    width: 100%;
+}
+.vertical-nav-area{
+    margin-top: 50%;
+    padding-top: 50%;
+}
+
+.btn-dash a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ /* code for main dashboard */
+  /* css code for popup form fild box of add job */
+
+.popup-form {
+  display: none;
+  position: fixed;
+  top: -5%;
+  left: 0%;
+  overflow: auto;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50%);
+  /* pointer-events: none; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+.form-container-password{
+  height: 50%;
+  width: 50%;
+  padding-bottom: 3%;
+  background-color: rgb(242, 243, 250);
+  color: black;   
+}
+.popup-form-password{
+  margin-top: 5%;
+  margin-left: 60%;
+}
+.form-container-job{
+  height: 50%;
+  width: 50%;
+  margin:5% 20%;
+  background-color: rgb(242, 243, 250);
+}
+
+.cancel-btn{
+  margin-right: 5%;
+}
+.modal-header-blue {
+  color: #1071e5;
+  background-color: rgba(16,113,229,.16);
+  border-bottom: #cfe4ff;
+  margin-left:0;
+  width: 100%;
+}
+.modal-content{
+  margin: 0;   
+}
+.board-box {
+  margin-left: 5%;
+  padding-top: 2%;
+}
+/* popup password change css ends here */
+ .btn-profile{
+    margin-left: 80%;
+    margin-top: -3rem;
+ }
+ .card-callot{
+    background-color: aliceblue;
+ }
+ .grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0px;
+    margin-right: 3rem;
+  }
+  .grid-list li {
+    border: 1px solid black;
+    padding: 10px;
+    list-style: none;
+  }
+  .row-board {
+    margin-left: 2%;
+  }
+  /* table starts */
+ .table-container{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    overflow-x: auto;
+ }
+thead {
+    background-color: rgb(19, 3, 91);
+    color: white;
+}
+  /* setting h5 color */
+  h5 {
+    color: rgb(6, 6, 63);
+  }
+
+/* managing text and line for Document Upload page */
+.line-and-text{
+  color: blue;
+  text-decoration-color: blue;
+}
+/* image upload space in document */
+.image-box {
+  border: 2px solid #ccc; /* Add a border */
+  padding: 10px; /* Add some padding */
+  width: 120px; /* Set the width of the box */
+  height: 120px; /* Set the height of the box */
+  overflow: hidden; /* Hide any overflow */
+  margin-top: -10%;
+}
+
+.image-box img {
+  display: block; /* Make the image a block element */
+  max-width: 100%; /* Set the maximum width of the image */
+  height: auto; /* Set the height of the image to auto to maintain aspect ratio */
+}
+.upload-button{
+  border-radius: 8px;
+  border: 2px solid navy;
+  width: 28%;
+  margin-top: 5%;
+}
+.alert{
+  margin-top: 5%;
+  background-color: rgba(16,113,229,.12);
+  color: #1071e5;
+}
+
+  /* footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding:0;
+  }
+ .footer-content{
+    margin-left: 0%;
+ }
+
+ 

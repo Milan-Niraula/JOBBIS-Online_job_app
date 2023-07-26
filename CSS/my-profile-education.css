@@ -1,0 +1,231 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(19, 3, 91);
+    color: white;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    margin-left: 0px;
+    color: #ccc;
+}
+
+.nav-link {
+    color: #ccc;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: rgb(165, 40, 40);
+    font-weight: 550;
+}
+
+.nav-item {
+    padding: 15px 10px 5px 0;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    font-size: medium;
+}
+
+.dropdown {
+    margin-left: 40rem;
+    padding: 15px 10px 5px 0;
+    font-size: medium;
+}
+
+.dropdown-item {
+    color: black;
+    background-color: rgb(190, 211, 222);
+
+}
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* starts code for vertical nav bar */
+.col-2 {
+    background-color: rgb(19, 3, 91);
+    color: white;
+}
+
+.content-area {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.dashboard-main {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.btn-dash,
+.btn-nav {
+    border: 3px solid rgb(19, 0, 100);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 1px 1px;
+    background-color: rgb(19, 4, 86);
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    height: 40%;
+    width: 100%;
+}
+
+.btn-dash a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* code for main dashboard */
+.btn-profile {
+    margin-left: 80%;
+    margin-top: -3rem;
+}
+
+.card-callot {
+    background-color: aliceblue;
+}
+
+.grid-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0px;
+    margin-right: 3rem;
+}
+
+.grid-list li {
+    border: 1px solid black;
+    padding: 10px;
+    list-style: none;
+}
+
+/* table starts */
+.table-container {
+    margin-top: 2rem;
+    overflow: auto;
+}
+
+thead {
+    background-color: rgb(19, 3, 91);
+    color: white;
+}
+
+/* setting h5 color */
+h5 {
+    color: rgb(6, 6, 63);
+}
+/* css for the popup form */
+
+.btn-add {
+    margin-left: 90%;
+}
+
+.popup-form {
+    display: none;
+    position: fixed;
+    top: -5%;
+    left: 0%;
+    overflow: auto;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50%);
+   
+}
+.form-container-password{
+    height: 50%;
+    width: 50%;
+    padding-bottom: 3%;
+    background-color: rgb(242, 243, 250);
+    color: black;   
+}
+.popup-form-password{
+    margin-top: 5%;
+    margin-left: 60%;
+}
+.form-container-education {
+    height: 50%;
+    width: 60%;
+    margin: 5% 20%;
+    background-color: rgb(242, 243, 250);
+}
+
+.cancel-btn {
+    margin-right: 10%;
+}
+
+.modal-bms .modal-header-blue {
+    color: #1071e5;
+    background-color: rgba(16, 113, 229, .16);
+    border-bottom: #cfe4ff;
+}
+
+.modal-content {
+    margin: 5%;
+
+}
+
+.board-box {
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.input-field {
+    width: 85%;
+}
+
+.submit-button {
+    border-radius: 8px;
+    color: white;
+    border: 2px solid rgb(39, 39, 70);
+    background-color: #1071e5;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 22%;
+}
+
+.cancel-button {
+    border-radius: 8%;
+    border: 2px solid #f21e1e;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 22%;
+}
+
+.alert {
+    margin-top: 5%;
+    background-color: rgba(16, 113, 229, .12);
+    color: #1071e5;
+}
+
+.button-box {
+    margin-top: 3%;
+    margin-left: 60%;
+}
+
+/* code complete */
+
+
+
+  /* footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding:0;
+  }
+ .footer-content{
+    margin-left: 0%;
+ }
+
+

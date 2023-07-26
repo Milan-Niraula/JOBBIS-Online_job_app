@@ -1,0 +1,204 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(19, 3, 91);
+    color:white;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    margin-left: 50px;
+    color: #ccc;
+}
+.nav-link {
+    color:#ccc;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: rgb(165, 40, 40);
+    font-weight: 550;
+}
+.nav-item {
+    padding: 15px 10px 5px 0;
+    font-weight: bold;
+    margin-left: 10px;
+    color:white;
+    font-size: medium;
+}
+.dropdown {
+    margin-left: 40rem;
+    padding: 15px 10px 5px 0;
+    font-size: medium;
+}
+.dropdown-item {
+    color: black;
+    background-color: rgb(190, 211, 222);
+
+}
+
+.dropdown-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  /* starts manupalating for vertical nav bar */
+  .col-2 {
+    background-color: rgb(19, 3, 91);
+    color: white;
+  }
+  .content-area {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .dashboard-main {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+  .btn-dash, .btn-nav {
+    border: 3px solid rgb(19, 0, 100);
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 1px 1px ;
+    background-color: rgb(19, 4, 86);
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -ms-transform: skew(-20deg);
+    height: 40%;
+    width: 100%;
+}
+.btn-dash a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ /* code for main dashboard */
+
+
+
+
+  /* css code for popup form fild box of add job */
+
+.popup-form {
+  display: none;
+  position: fixed;
+  top: -5%;
+  left: 0%;
+  overflow: auto;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(50%);
+  /* pointer-events: none; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+.form-container-apply{
+  margin-top: 8%;
+  margin-left: 25%;
+  height: auto;
+  width: 50%;
+  padding: 3%;
+  background-color: rgb(242, 243, 250);
+  color: black; 
+}
+.content-area-apply{
+  padding: 5%;
+}
+.button-area{
+  margin-top: 3%;
+  margin-left: 80%;
+}
+.form-container-password{
+  height: 50%;
+  width: 50%;
+  padding-bottom: 3%;
+  background-color: rgb(242, 243, 250);
+  color: black;   
+}
+.popup-form-password{
+  margin-top: 5%;
+  margin-left: 60%;
+}
+.form-container-job{
+  height: 50%;
+  width: 50%;
+  margin:5% 20%;
+  background-color: rgb(242, 243, 250);
+}
+
+.cancel-btn{
+  margin-right: 5%;
+}
+.modal-header-blue {
+  color: #1071e5;
+  background-color: rgba(16,113,229,.16);
+  border-bottom: #cfe4ff;
+  margin-left:0;
+  width: 100%;
+}
+.modal-content{
+  margin: 0;   
+}
+.board-box {
+  margin-left: 5%;
+  padding-top: 2%;
+}
+
+/* here popup wimdows close */
+.input-field{
+  width: 85%;
+}
+ .btn-profile{
+    margin-left: 80%;
+    margin-top: -3rem;
+ }
+ .card-callot{
+    background-color: aliceblue;
+ }
+ .cardbg-blue{
+    background-color: blue;
+    padding-left: 2rem;
+    color: white;
+ }
+ .cardbg-purple{
+    background-color: purple;
+    padding-left: 2rem;
+    color: white;
+ }
+ .cardbg-green{
+    background-color: green;
+    padding-left: 2rem;
+    color: white;
+ }
+ /* table starts */
+ .table-container{
+    margin-top: 2rem;
+ }
+thead {
+    background-color: rgb(19, 3, 91);
+    color: white;
+}
+th {
+  border: 1px solid white;
+}
+td {
+  border: 1px solid rgb(19, 3, 91);
+}
+
+  /* footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding:0;
+  }
+ .footer-content{
+    margin-left: 0%;
+ }
